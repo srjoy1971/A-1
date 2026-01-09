@@ -68,6 +68,24 @@ header{
     margin-bottom: 32px;
 }
 
+.title-text{
+    padding: 50px;
+}
+
+.title h1 {
+    font-size: 48px;
+    color: #001931;
+    text-align: center;
+    font-style: bold;
+}
+
+.title p {
+    font-size: 16px;
+    color: #627382;
+    text-align: center;
+
+}
+
 #does{
     padding-top: 50px;
 }
@@ -81,10 +99,6 @@ header{
     margin: 0 auto;
     text-align: center;
 
-}
-
-#does.does-content.section-heading h2 {
-    font-size: 48px;
 }
 
 #does .does-container .does-box {
@@ -110,5 +124,42 @@ header{
 .does-card p {
      font-size: 16px;
     line-height: 20px;
+}
+
+#solution{
+    /* border: 1px solid red; */
+    margin: 120px;
+    display: flex;
+}
+#solution .solution-content{
+    display: flex;
+    width: 85%;
+    max-width: 1360px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#solution .solution-content,.solution-heading{
+    padding-right: px;
+}
+#solution .solution-content h3 {
+    font-size: 16px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+#solution .solution-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#solution .solution-content p {
+    font-size: 16px;
+    color:#627382 ;
+    margin-bottom: 40px;
+}
+#solution .solution-content ul li {
+    font-size: 16px;
+    color: #627382;
 }
 
