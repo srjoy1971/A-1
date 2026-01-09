@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-inter{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+  
+}
+.btn button{
+    background-color: #469165;
+    border: none;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+}
+
+header{
+    background-color: #FFFFFF;
+    padding: 16px;
+  }
+  nav{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+   
+  }
+  .space li a{
+     text-decoration: none;
+  }
+  
+#banner {
+  position: relative;
+}
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  max-width: 800px;
+}
+.banner-content h2 {
+    font-size: 72px;
+    font-weight: bold;
+    margin: 16px;
+}
+.banner-content p{
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+#does{
+    padding-top: 50px;
+}
+#does .does-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+ #does.does-content.section-heading{
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#does.does-content.section-heading h2 {
+    font-size: 48px;
+}
+
+#does .does-container .does-box {
+    display: flex;
+    gap: 24px;
+}
+.does-box .does-card {
+    padding: 24px;
+    border: 1px solid;
+    max-width: 322px;
+    box-shadow: 0 6px 8px 0 #000000;
+}
+
+.does-card img {
+    max-width: 60px;
+    margin-bottom: 16px;
+}
+.does-card h3 {
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.does-card p {
+     font-size: 16px;
+    line-height: 20px;
+}
+
