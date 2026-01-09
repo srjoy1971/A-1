@@ -18,7 +18,13 @@
     display: flex;
     justify-content: center;
     margin: 24px;
+    cursor: pointer;
     
+}
+
+.btn button:hover{
+    background-color:#F7F6F2 ;
+    color: #000000;
 }
 
 header{
@@ -35,6 +41,19 @@ header{
     flex-direction: row;
   }
 
+.sec-button{
+    background-color: #FAFAFA;
+    color: #000000;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+.sec-button:hover{
+    background-color: #469165;
+    color: #000000;
+    cursor: pointer;
+}
   .space{
     display: flex;
     justify-content: space-between;
@@ -68,6 +87,20 @@ header{
     font-size: 18px;
     margin-top: 16px;
     margin-bottom: 32px;
+}
+
+.btn{
+    display: flex;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn button{
+    cursor: pointer;
 }
 
 .title-text{
@@ -204,6 +237,13 @@ header{
     color: #fff;
     margin: 24px;
     text-align: center;
+    cursor: pointer;
+}
+
+#think .think-container .butt:hover{
+    background-color: #d0cec7;
+    color: #000000;
+    
 }
 .text-center  {
     text-align: center;
