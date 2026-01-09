@@ -18,6 +18,7 @@
     display: flex;
     justify-content: center;
     margin: 24px;
+    
 }
 
 header{
@@ -29,6 +30,7 @@ header{
     max-width: 1360px;
     margin: 0 auto;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     flex-direction: row;
   }
@@ -88,6 +90,7 @@ header{
 
 #does{
     padding-top: 50px;
+    text-align: center;
 }
 #does .does-container {
     width: 85%;
@@ -106,6 +109,7 @@ header{
     gap: 24px;
 }
 .does-box .does-card {
+    height: 300px;
     padding: 24px;
     border: 1px solid;
     max-width: 322px;
@@ -113,8 +117,11 @@ header{
 }
 
 .does-card img {
+    background-color: red;
+    padding: 6px;
     max-width: 60px;
     margin-bottom: 16px;
+    border-radius: 100%;
 }
 .does-card h3 {
     font-size: 24px;
@@ -130,9 +137,11 @@ header{
     /* border: 1px solid red; */
     margin: 120px;
     display: flex;
+    
 }
 #solution .solution-content{
     display: flex;
+    gap: 40px;
     width: 85%;
     max-width: 1360px;
     justify-content: space-between;
@@ -198,4 +207,30 @@ header{
 }
 .text-center  {
     text-align: center;
+}
+footer{
+    background-color: #001931;
+    height: 348px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 120px 120px 160px;
+    background-color: #001931;
+    padding-top: 120px;
+}
+footer .right h4{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+ .copy {
+    text-align: center;
+    color: #FAFAFA;
+    margin-bottom: 30px;
+
+}
+.copy-row {
+    border-top: 1px solid rgb(103, 98, 98);
+    width: 1360px;
 }
