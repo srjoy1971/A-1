@@ -163,3 +163,39 @@ header{
     color: #627382;
 }
 
+#think {
+    /* padding-top: 120px; */
+    margin-top: 0;
+    margin-bottom: 120px;
+}
+#think .think-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 120px;
+    margin-top:none;
+}
+#think .think-container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin: 16px;
+}
+#think .think-container p{
+    font-size: 16px;
+    color: #627382;
+}
+#think .think-container .butt {
+    background-color: #469165;
+    border: none;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    color: #fff;
+    margin: 24px;
+    text-align: center;
+}
+.text-center  {
+    text-align: center;
+}
